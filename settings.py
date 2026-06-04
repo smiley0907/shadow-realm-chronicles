@@ -1,0 +1,7 @@
+WINDOW_TITLE = "Shadow Realm Chronicles"
+
+PLAYER_SPEED = 0.5
+
+PLAYER_HEALTH = 100
+
+PLAYER_MANA = 50
