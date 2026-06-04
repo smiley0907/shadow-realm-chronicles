@@ -2,7 +2,11 @@ from direct.showbase.ShowBase import ShowBase
 
 from player.player import Player
 from world.game_world import GameWorld
-
+from enemy.enemy import Enemy
+from combat.combat_manager import CombatManager
+from inventory.inventory_manager import InventoryManager
+from ui.hud import HUD
+from audio.sound_manager import SoundManager
 
 class ShadowRealmChronicles(ShowBase):
 
