@@ -1,5 +1,7 @@
 from direct.task import Task
+self.health = 100
 
+self.gold = 0
 
 class Player:
 
