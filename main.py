@@ -24,6 +24,13 @@ class ShadowRealmChronicles(ShowBase):
         self.player = Player(self)
         self.player.load_player()
 
+        def attack(self):
+
+    self.combat.attack_enemy(
+        self.enemy
+    )
+
+
 
 game = ShadowRealmChronicles()
 game.run()
